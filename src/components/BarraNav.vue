@@ -8,9 +8,9 @@
         <nav>
             <ul>
                 <li><router-link to="/">INICIO</router-link></li>
-                <li><router-link to="/consultas">EDUCACION SUPERIOR</router-link></li>
+                <li><router-link to="/educacion/superior">EDUCACION SUPERIOR</router-link></li>
                 <li><router-link to="/eventos">HORARIOS</router-link></li>
-                <li><router-link to="/servicios">DIRECTORIO</router-link></li>
+                <li><router-link to="/directorio">DIRECTORIO</router-link></li>
             </ul>
         </nav>
     </div>
@@ -24,8 +24,10 @@ export default {
 </script>
 
 <style>
+
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 .encabezado{
     background-color: #303845;
