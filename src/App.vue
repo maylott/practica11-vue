@@ -1,15 +1,18 @@
 <template>
   <BarraNav/>
   <router-view/>
+  <FooterView/>
 </template>
 
 <script>
 import BarraNav from './components/BarraNav.vue';
+import FooterView from './components/FooterView.vue';
 
 export default {
   name: 'App',
   components: {
-    BarraNav
+    BarraNav,
+    FooterView
   }
 }
 </script>
@@ -21,10 +24,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: #303845;
+
 }
 
-*{
-  box-sizing: border-box;
-}
+
 
 </style>

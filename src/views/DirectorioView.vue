@@ -1,6 +1,6 @@
 <template>
     <div class="pancarta">
-        <img src="../assets/image.png" alt="Directorio">
+        <img src="../assets/image.png" alt="Directorio" class="imagen">
     </div>
 
     <div class="container">
@@ -20,9 +20,8 @@ export default{
 </script>
 
 <style>
-*{
-    margin: 0;
-    box-sizing: border-box;
+.imagen{
+    width: 100%;
 }
 </style>
 

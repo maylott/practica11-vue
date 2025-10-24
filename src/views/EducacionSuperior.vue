@@ -1,6 +1,5 @@
 <template>
 
-    <div class="containers">
         <h1>Educación superior</h1>
         <h4>Documentos</h4>
         <table>
@@ -16,7 +15,6 @@
                 <td>Solicitud para asignación de especialidad curricular a profesionales no docentes</td>
             </tr> 
         </table> 
-    </div>
 
 </template>
 
@@ -28,22 +26,10 @@ export default{
 
 
 <style>
-h1{
-    margin-top: 20px;
-}
-
-
-.containers {
-    background: white;
-    border-radius: 20px;
-    padding: 40px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-    width: 100%;
-}
-
 h1 {
+    margin-top: 20px;
     text-align: center;
-    color: #333A48;
+    color: #ffffff;
     margin-bottom: 30px;
     font-size: 2.5em;
     text-transform: uppercase;
@@ -68,7 +54,6 @@ td {
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
     position: relative;
     overflow: hidden;
 }

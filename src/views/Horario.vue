@@ -1,6 +1,6 @@
 <template>
   <div class="horario-page">
-    <!-- Header -->
+    <!-- Header
     <header class="header">
       <div class="header-top">
         <div class="left-section">
@@ -16,7 +16,7 @@
         </div>
 
         <div class="center-section">
-          <img src="@/assets/edu.png" alt="Logo Ministerio" class="logo">
+          <img src="../assets/Logo- Educacion.png" alt="Logo Ministerio" class="logo">
           <div class="ministry-text">
             <div>MINISTERIO</div>
             <div>DE EDUCACIÓN</div>
@@ -49,7 +49,7 @@
           <li><a href="#">ORGANISMOS INTERNACIONALES</a></li>
         </ul>
       </nav>
-    </header>
+    </header> -->
 
     <div class="hero-section">
       <div class="hero-content">

@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DirectorioView from '@/views/DirectorioView.vue'
 import EducacionSuperior from '@/views/EducacionSuperior.vue'
+import Horario from '@/views/Horario.vue'
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
     name: 'directorio',
     component: DirectorioView
   },
+  {
+    path: '/horarios',
+    name: 'horarios',
+    component: Horario
+  }
   
 ]
 
