@@ -2,7 +2,7 @@
 
     <div class="container">
         <div class="encabezado">
-            <img src="../assets/Logo- Educacion.png" alt="Ministerio de educacion">
+            <img src="../assets/Logo- Educacion.png" alt="Ministerio de educacion" class="logo">
         </div>
 
         <nav>
@@ -56,6 +56,11 @@ nav a {
 nav a:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+.logo{
+  border-radius: 0%;
+}
+
 
 </style>
 

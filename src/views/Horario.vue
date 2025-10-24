@@ -72,30 +72,6 @@
         <p class="subtitle"><strong>Nuestros horarios de atención:</strong></p>
         <p class="hours">De Lunes a Viernes de 7:30 a.m. a 3:30 p.m.</p>
       </div>
-
-    
-      <div class="footer-links">
-        <div class="link-item">
-          <i class="fas fa-chart-line"></i>
-          <span>Estadísticas Educativas</span>
-        </div>
-        <div class="link-item">
-          <i class="fas fa-cloud-download-alt"></i>
-          <span>Descargas</span>
-        </div>
-        <div class="link-item">
-          <i class="fas fa-question-circle"></i>
-          <span>Preguntas Frecuentes</span>
-        </div>
-        <div class="link-item">
-          <i class="fas fa-users"></i>
-          <span>Programas</span>
-        </div>
-        <div class="link-item">
-          <i class="fas fa-bell"></i>
-          <span>Avisos</span>
-        </div>
-      </div>
     </div>
   </div>
 </template>

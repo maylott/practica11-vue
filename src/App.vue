@@ -1,4 +1,6 @@
 <template>
+  <link rel="icon" type="image/png" href="https://www.developmentaid.org/files/organizationLogos/vice-ministry-of-transport-vice-ministerio-de-transportes-216883.jpg">
+
   <BarraNav/>
   <router-view/>
   <FooterView/>

@@ -3,7 +3,7 @@
         <img src="../assets/image.png" alt="Directorio" class="imagen">
     </div>
 
-    <div class="container">
+    <div class="containerTect">
         <h1>Directorio</h1>
         <h5>Ministra de Educacion Ciencia y Tecnologia</h5>
         <p>Karla Edith Trigueros</p>
@@ -22,6 +22,13 @@ export default{
 <style>
 .imagen{
     width: 100%;
+    border-radius: 0%;
+}
+
+.containerTect{
+    color: aliceblue;
+    text-align: start;
+    margin: 75px 100px;
 }
 </style>
 

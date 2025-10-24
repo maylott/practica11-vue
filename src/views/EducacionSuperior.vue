@@ -4,29 +4,90 @@
         <h4>Documentos</h4>
         <table>
             <tr> 
-                <td>Fortalecimiento de capacidades para la implementación de la Educación Dual en las Instituciones de Educación Superior en El Salvador (DUALELS)</td>
-                <td>Caracterización de la atención educativa de estudiantes con discapacidad en las Instituciones de Educación Superior-IES de El Salvador</td>
-                <td>Publicaciones</td>
+                <td>
+                <BsFillCloudArrowDownFill />
+
+                    <p>
+                        Fortalecimiento de capacidades para la implementación de la Educación Dual en las Instituciones de Educación Superior en El Salvador (DUALELS)
+                    </p>
+                </td>
+                <td>
+                    <BsFillCloudArrowDownFill />
+                    <p>
+                    Caracterización de la atención educativa de estudiantes con discapacidad en las Instituciones de Educación Superior-IES de El Salvador
+                    </p>
+                </td>
+                <td>
+                    <BsFillPeopleFill />
+                    <p>
+                    Publicaciones
+                    </p>
+                </td>
             </tr> 
             
             <tr> 
-                <td>Estadísticas de Educación Superior</td>
-                <td>Becas y Financiamiento</td>
-                <td>Solicitud para asignación de especialidad curricular a profesionales no docentes</td>
+                <td>
+                    
+                    <AiOutlineBarChart />
+                    <p>
+                    Estadísticas de Educación Superior
+                    </p>
+                </td>
+                <td>
+                    <BsFillCloudArrowDownFill />
+                    <p>
+                    Becas y Financiamiento
+                    </p>
+                </td>
+                <td>
+                    <AiOutlineFileWord />
+                    <p>
+                    Solicitud para asignación de especialidad curricular a profesionales no docentes
+                    </p>
+                </td>
             </tr> 
+        </table> 
+
+        <hr>
+        <hr>
+
+        <table>
+            <tr> 
+                <td>
+                    <img src="https://www.mined.gob.sv/images/carreras01.jpg" alt="Carreras">
+                    <p>Carreras Autorizadas</p>
+                </td>
+                <td>
+                    <img src="https://www.mined.gob.sv/images/universidad02.jpg" alt="Universidad">
+                    <p>Instituciones Legalmente Establecidas</p>
+                </td>
+                <td>
+                    <img src="https://www.mined.gob.sv/images/interes03.jpg" alt="Intereses">
+                    <p>Enlaces de Interes</p>
+                </td>
+                <td>
+                    <img src="https://www.mined.gob.sv/images/servicios04.jpg" alt="Servicios">
+                    <p>Servicios</p>
+                </td>
+            </tr> 
+
         </table> 
 
 </template>
 
-<script>
-export default{
-    name: 'EducacionSuperior',
-}
+
+<script setup>
+import { BsFillCloudArrowDownFill, BsFillPeopleFill} from 'vue-icons-plus/bs'
+import { AiOutlineFileWord, AiOutlineBarChart } from 'vue-icons-plus/ai'
+
+
+
+
 </script>
 
 
 <style>
-h1 {
+h1{
     margin-top: 20px;
     text-align: center;
     color: #ffffff;
@@ -38,6 +99,10 @@ h1 {
     padding-bottom: 15px;
 }
 
+h4{
+    color: white;
+}
+
 table {
     width: 100%;
     border-collapse: separate;
@@ -45,7 +110,7 @@ table {
 }
 
 td {
-    background-color: #333A48;            
+    background-color: #3a4250;
     color: white;
     padding: 25px 20px;
     text-align: center;
@@ -56,6 +121,18 @@ td {
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+}
+
+img{
+    border-radius: 50%;
+}
+
+hr{
+    width: 75%;
+    height: 1.5px;
+    margin: 20px auto;
+    background-color: #3a4250;
+    border: none; 
 }
 
 </style>
